@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>United Selections | Global Rose Breeding</title>
+    <meta
+      name="description"
+      content="United Selections develops premium, high-yielding rose varieties for growers, wholesalers, and breeders worldwide."
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              page: '#f4efe9',
+              ink: '#18181b',
+              muted: '#5b5b61',
+              accent: '#e1833a',
+              card: '#f6efe6'
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif']
+            },
+            boxShadow: {
+              form: '0 24px 50px -35px rgba(27, 21, 16, 0.55)'
+            }
+          }
+        }
+      };
+    </script>
+
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+
+  <body class="bg-page font-sans text-ink">
+    <main>
+      <section
+        class="relative min-h-[78vh] bg-cover bg-center"
+        style="background-image: url('/assets/hero-rose-bouquet.jpg');"
+      >
+        <div class="absolute inset-0 bg-gradient-to-r from-black/75 via-black/55 to-black/20"></div>
+
+        <div class="relative mx-auto flex min-h-[78vh] w-full max-w-7xl items-center px-6 py-16 md:px-10">
+          <div class="max-w-2xl">
+            <p class="mb-10 text-base font-semibold tracking-wide text-white">United Selections</p>
+            <h1 class="text-4xl font-extrabold leading-tight text-white md:text-6xl">
+              Breeding the Future of Roses, Globally.
+            </h1>
+            <p class="mt-6 max-w-xl text-base leading-relaxed text-white/90 md:text-xl">
+              High-yielding, sustainable, and award-winning rose varieties developed across continents.
+            </p>
+            <a
+              href="#inquiry"
+              class="mt-10 inline-flex rounded-full bg-accent px-8 py-3 text-sm font-semibold uppercase tracking-wide text-white transition hover:bg-[#cf6f26]"
+              >Get in Touch</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section id="inquiry" class="mx-auto w-full max-w-7xl px-6 py-14 md:px-10 md:py-20">
+        <div class="grid gap-8 lg:grid-cols-2 lg:gap-12">
+          <div class="lg:pr-8">
+            <h2 class="text-3xl font-extrabold leading-tight text-ink md:text-4xl">Best of Global Rose Breeding</h2>
+            <p class="mt-6 text-base leading-7 text-muted">
+              United Selections combines global breeding leadership in Kenya with worldwide testing programs to deliver roses that perform consistently in diverse climates. Our premium varieties are designed for quality, yield, and market relevance, while our long-term approach strengthens supply chains through sustainable breeding and reliable partnerships.
+            </p>
+
+            <h3 class="mt-10 text-2xl font-extrabold text-ink">Why United Selections?</h3>
+            <ul class="mt-5 space-y-3 text-base text-muted">
+              <li class="flex items-start gap-3"><span class="mt-2 h-2 w-2 rounded-full bg-accent"></span><span>High-yield, disease-resistant varieties</span></li>
+              <li class="flex items-start gap-3"><span class="mt-2 h-2 w-2 rounded-full bg-accent"></span><span>Global multi-climate testing</span></li>
+              <li class="flex items-start gap-3"><span class="mt-2 h-2 w-2 rounded-full bg-accent"></span><span>Award-winning rose genetics</span></li>
+              <li class="flex items-start gap-3"><span class="mt-2 h-2 w-2 rounded-full bg-accent"></span><span>Tailored for growers &amp; markets</span></li>
+              <li class="flex items-start gap-3"><span class="mt-2 h-2 w-2 rounded-full bg-accent"></span><span>Sustainable breeding practices</span></li>
+              <li class="flex items-start gap-3"><span class="mt-2 h-2 w-2 rounded-full bg-accent"></span><span>Strong industry partnerships</span></li>
+            </ul>
+
+            <p class="mt-8 text-sm font-bold text-ink">Fill out the form and we will get in touch with you.</p>
+            <p class="mt-3 max-w-2xl text-xs leading-6 text-zinc-500">
+              We process your information to respond to your inquiry and may contact you regarding our services. You may unsubscribe at any time.
+            </p>
+          </div>
+
+          <div>
+            <form class="rounded-3xl bg-card p-6 shadow-form md:p-8" aria-label="Contact form">
+              <div class="space-y-4">
+                <label class="block text-sm font-medium text-ink">
+                  Name
+                  <input
+                    type="text"
+                    name="name"
+                    required
+                    class="mt-1.5 w-full rounded-xl border border-zinc-300 bg-white px-4 py-3 text-sm outline-none transition focus:border-accent"
+                  />
+                </label>
+
+                <label class="block text-sm font-medium text-ink">
+                  Email
+                  <input
+                    type="email"
+                    name="email"
+                    required
+                    class="mt-1.5 w-full rounded-xl border border-zinc-300 bg-white px-4 py-3 text-sm outline-none transition focus:border-accent"
+                  />
+                </label>
+
+                <label class="block text-sm font-medium text-ink">
+                  Phone
+                  <input
+                    type="tel"
+                    name="phone"
+                    class="mt-1.5 w-full rounded-xl border border-zinc-300 bg-white px-4 py-3 text-sm outline-none transition focus:border-accent"
+                  />
+                </label>
+
+                <label class="block text-sm font-medium text-ink">
+                  Country / Region
+                  <input
+                    type="text"
+                    name="country"
+                    class="mt-1.5 w-full rounded-xl border border-zinc-300 bg-white px-4 py-3 text-sm outline-none transition focus:border-accent"
+                  />
+                </label>
+
+                <label class="block text-sm font-medium text-ink">
+                  Company / Business name
+                  <input
+                    type="text"
+                    name="company"
+                    class="mt-1.5 w-full rounded-xl border border-zinc-300 bg-white px-4 py-3 text-sm outline-none transition focus:border-accent"
+                  />
+                </label>
+
+                <label class="block text-sm font-medium text-ink">
+                  Website
+                  <input
+                    type="url"
+                    name="website"
+                    placeholder="https://"
+                    class="mt-1.5 w-full rounded-xl border border-zinc-300 bg-white px-4 py-3 text-sm outline-none transition focus:border-accent"
+                  />
+                </label>
+
+                <fieldset class="pt-1">
+                  <legend class="text-sm font-semibold text-ink">Which best describes you?</legend>
+                  <div class="mt-2 grid grid-cols-1 gap-2 text-sm text-zinc-700 sm:grid-cols-2">
+                    <label class="flex items-center gap-2"><input type="radio" name="role" value="Grower" class="accent-accent" /> Grower</label>
+                    <label class="flex items-center gap-2"><input type="radio" name="role" value="Wholesaler" class="accent-accent" /> Wholesaler</label>
+                    <label class="flex items-center gap-2"><input type="radio" name="role" value="Breeder" class="accent-accent" /> Breeder</label>
+                    <label class="flex items-center gap-2"><input type="radio" name="role" value="Retailer" class="accent-accent" /> Retailer</label>
+                    <label class="flex items-center gap-2 sm:col-span-2"><input type="radio" name="role" value="Other" class="accent-accent" /> Other</label>
+                  </div>
+                </fieldset>
+
+                <label class="block text-sm font-medium text-ink">
+                  If other, please specify
+                  <input
+                    type="text"
+                    name="other"
+                    class="mt-1.5 w-full rounded-xl border border-zinc-300 bg-white px-4 py-3 text-sm outline-none transition focus:border-accent"
+                  />
+                </label>
+
+                <label class="block text-sm font-medium text-ink">
+                  Message / Request
+                  <textarea
+                    name="message"
+                    rows="4"
+                    class="mt-1.5 w-full rounded-xl border border-zinc-300 bg-white px-4 py-3 text-sm outline-none transition focus:border-accent"
+                  ></textarea>
+                </label>
+              </div>
+
+              <button
+                type="submit"
+                class="mt-6 w-full rounded-full bg-accent px-6 py-3 text-sm font-semibold uppercase tracking-wide text-white transition hover:bg-[#cf6f26]"
+              >
+                Send
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
